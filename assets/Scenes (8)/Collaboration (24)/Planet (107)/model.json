@@ -1,0 +1,23 @@
+{
+  "attributes": [
+    "uv",
+    "position"
+  ],
+  "bones": null,
+  "maps": [
+    "map"
+  ],
+  "animations": [],
+  "opacity": 1,
+  "mapSlots": {
+    "map": "map",
+    "light": null,
+    "specular": null,
+    "alpha": null,
+    "normal": null
+  },
+  "unitRatio": 1,
+  "filtering": "pixelated",
+  "wrapping": "clampToEdge",
+  "formatVersion": 2
+}

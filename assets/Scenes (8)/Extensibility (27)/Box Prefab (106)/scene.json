@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "name": "Box",
+      "children": [
+        {
+          "name": "Model",
+          "children": [],
+          "components": [
+            {
+              "type": "ModelRenderer",
+              "config": {
+                "modelAssetId": "114",
+                "animationId": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": "1"
+        }
+      ],
+      "components": [
+        {
+          "type": "CannonBody",
+          "config": {
+            "mass": 5,
+            "fixedRotation": false,
+            "offsetX": 0,
+            "offsetY": 0,
+            "offsetZ": 0,
+            "shape": "box",
+            "halfWidth": 1,
+            "halfHeight": 1,
+            "halfDepth": 1,
+            "radius": 1,
+            "height": 1
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "id": "0"
+    }
+  ],
+  "formatVersion": 1
+}

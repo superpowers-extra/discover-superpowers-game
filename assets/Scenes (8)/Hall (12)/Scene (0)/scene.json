@@ -1,0 +1,200 @@
+{
+  "nodes": [
+    {
+      "id": "37",
+      "name": "Base",
+      "children": [],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": {
+        "sceneAssetId": "117"
+      }
+    },
+    {
+      "name": "CrossPlatform",
+      "children": [],
+      "components": [
+        {
+          "type": "SpriteRenderer",
+          "config": {
+            "spriteAssetId": "14",
+            "animationId": null,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
+          },
+          "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "TeleporterBehavior",
+            "propertyValues": {}
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": 20,
+        "y": 0.1,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0.5,
+        "y": -0.5,
+        "z": 0.4999999999999999,
+        "w": 0.5000000000000001
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "id": "21",
+      "visible": true,
+      "layer": 0
+    },
+    {
+      "name": "Text",
+      "children": [],
+      "components": [
+        {
+          "type": "SpriteRenderer",
+          "config": {
+            "spriteAssetId": "59",
+            "animationId": null,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 11,
+        "z": -8.5
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "id": "31",
+      "visible": true,
+      "layer": 0
+    },
+    {
+      "name": "Logo",
+      "children": [],
+      "components": [
+        {
+          "type": "SpriteRenderer",
+          "config": {
+            "spriteAssetId": "69",
+            "animationId": null,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 18,
+        "z": -9
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "id": "32",
+      "visible": true,
+      "layer": 0
+    },
+    {
+      "name": "Tutorial",
+      "children": [],
+      "components": [
+        {
+          "type": "SpriteRenderer",
+          "config": {
+            "spriteAssetId": "108",
+            "animationId": null,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 6,
+        "z": -8.5
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "id": "34",
+      "visible": true,
+      "layer": 0
+    }
+  ],
+  "formatVersion": 1
+}

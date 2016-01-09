@@ -1,0 +1,29 @@
+{
+  "filtering": "smooth",
+  "pixelsPerUnit": 20,
+  "framesPerSecond": 10,
+  "alphaTest": 0.1,
+  "grid": {
+    "width": 436,
+    "height": 144
+  },
+  "origin": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "animations": [],
+  "maps": [
+    "map"
+  ],
+  "opacity": 1,
+  "frameOrder": "rows",
+  "mapSlots": {
+    "map": "map",
+    "light": null,
+    "specular": null,
+    "alpha": null,
+    "normal": null
+  },
+  "formatVersion": 3,
+  "wrapping": "clampToEdge"
+}

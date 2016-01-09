@@ -1,0 +1,331 @@
+{
+  "nodes": [
+    {
+      "id": "41",
+      "name": "Base",
+      "children": [],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": {
+        "sceneAssetId": "117"
+      }
+    },
+    {
+      "name": "2D",
+      "children": [],
+      "components": [
+        {
+          "type": "SpriteRenderer",
+          "config": {
+            "spriteAssetId": "14",
+            "animationId": null,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
+          },
+          "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "TeleporterBehavior",
+            "propertyValues": {}
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": -20,
+        "y": 0.1,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": -0.4999999999999999,
+        "w": 0.5000000000000001
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "id": "31",
+      "visible": true,
+      "layer": 0
+    },
+    {
+      "name": "Collaboration",
+      "children": [],
+      "components": [
+        {
+          "type": "SpriteRenderer",
+          "config": {
+            "spriteAssetId": "14",
+            "animationId": null,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
+          },
+          "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "TeleporterBehavior",
+            "propertyValues": {}
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": 20,
+        "y": 0.1,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0.5,
+        "y": -0.5,
+        "z": 0.4999999999999999,
+        "w": 0.5000000000000001
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "id": "21",
+      "visible": true,
+      "layer": 0
+    },
+    {
+      "name": "HTML5 Robot",
+      "children": [
+        {
+          "name": "Model",
+          "children": [],
+          "components": [
+            {
+              "type": "ModelRenderer",
+              "config": {
+                "modelAssetId": "49",
+                "animationId": "0",
+                "overrideOpacity": false,
+                "color": "ffffff",
+                "castShadow": false,
+                "receiveShadow": false,
+                "materialType": "basic"
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 2.9802322387695312e-8,
+            "y": 0,
+            "z": 8.940696716308594e-8
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 2,
+            "y": 2,
+            "z": 2
+          },
+          "id": "34",
+          "visible": true,
+          "layer": 0
+        },
+        {
+          "name": "Shadow",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": "44",
+                "animationId": null,
+                "overrideOpacity": false,
+                "color": "ffffff",
+                "horizontalFlip": false,
+                "verticalFlip": false,
+                "castShadow": false,
+                "receiveShadow": false,
+                "materialType": "basic"
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0.1,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0.7071067811865475,
+            "y": 0,
+            "z": 0,
+            "w": 0.7071067811865476
+          },
+          "scale": {
+            "x": 18,
+            "y": 18,
+            "z": 1
+          },
+          "id": "40",
+          "visible": true,
+          "layer": 0
+        }
+      ],
+      "components": [
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "RobotBehavior",
+            "propertyValues": {}
+          },
+          "id": "0"
+        },
+        {
+          "type": "CannonBody",
+          "config": {
+            "mass": 0,
+            "fixedRotation": false,
+            "offsetX": -3.8,
+            "offsetY": 3,
+            "offsetZ": 2.1,
+            "shape": "box",
+            "halfWidth": 1.5,
+            "halfHeight": 3,
+            "halfDepth": 1.5,
+            "radius": 1,
+            "height": 1
+          },
+          "id": "1"
+        },
+        {
+          "type": "CannonBody",
+          "config": {
+            "mass": 0,
+            "fixedRotation": false,
+            "offsetX": 4.6,
+            "offsetY": 3,
+            "offsetZ": -0.8,
+            "shape": "box",
+            "halfWidth": 1.5,
+            "halfHeight": 3,
+            "halfDepth": 1.5,
+            "radius": 1,
+            "height": 1
+          },
+          "id": "2"
+        },
+        {
+          "type": "CannonBody",
+          "config": {
+            "mass": 0,
+            "fixedRotation": false,
+            "offsetX": 0,
+            "offsetY": 6,
+            "offsetZ": 0,
+            "shape": "box",
+            "halfWidth": 3,
+            "halfHeight": 0.5,
+            "halfDepth": 3,
+            "radius": 1,
+            "height": 1
+          },
+          "id": "3"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -3
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0.008726535498373935,
+        "z": 0,
+        "w": 0.9999619230641713
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "id": "10",
+      "visible": true,
+      "layer": 0
+    },
+    {
+      "name": "Text",
+      "children": [],
+      "components": [
+        {
+          "type": "SpriteRenderer",
+          "config": {
+            "spriteAssetId": "62",
+            "animationId": null,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 15,
+        "z": -9
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "id": "37",
+      "visible": true,
+      "layer": 0
+    }
+  ],
+  "formatVersion": 1
+}

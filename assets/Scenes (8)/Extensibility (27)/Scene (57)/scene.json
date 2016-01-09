@@ -1,0 +1,740 @@
+{
+  "nodes": [
+    {
+      "id": "52",
+      "name": "Base",
+      "children": [],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": {
+        "sceneAssetId": "117"
+      }
+    },
+    {
+      "name": "Collaboration",
+      "children": [],
+      "components": [
+        {
+          "type": "SpriteRenderer",
+          "config": {
+            "spriteAssetId": "14",
+            "animationId": null,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
+          },
+          "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "TeleporterBehavior",
+            "propertyValues": {}
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": -20,
+        "y": 0.1,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": -0.4999999999999999,
+        "w": 0.5000000000000001
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "id": "31",
+      "visible": true,
+      "layer": 0
+    },
+    {
+      "name": "Asset",
+      "children": [],
+      "components": [
+        {
+          "type": "SpriteRenderer",
+          "config": {
+            "spriteAssetId": "14",
+            "animationId": null,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
+          },
+          "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "TeleporterBehavior",
+            "propertyValues": {}
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": 20,
+        "y": 0.1,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0.5,
+        "y": -0.5,
+        "z": 0.4999999999999999,
+        "w": 0.5000000000000001
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "id": "21",
+      "visible": true,
+      "layer": 0
+    },
+    {
+      "name": "Lever 1",
+      "children": [
+        {
+          "name": "Lever",
+          "children": [],
+          "components": [
+            {
+              "type": "ModelRenderer",
+              "config": {
+                "modelAssetId": "90",
+                "animationId": null,
+                "overrideOpacity": false,
+                "color": "ffffff",
+                "castShadow": false,
+                "receiveShadow": false,
+                "materialType": "basic"
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0.3826834323650898,
+            "w": 0.9238795325112867
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": "42",
+          "visible": true,
+          "layer": 0
+        },
+        {
+          "name": "Hitbox",
+          "children": [],
+          "components": [
+            {
+              "type": "CannonBody",
+              "config": {
+                "mass": 0,
+                "fixedRotation": false,
+                "offsetX": 0,
+                "offsetY": 0.5,
+                "offsetZ": 0,
+                "shape": "box",
+                "halfWidth": 1,
+                "halfHeight": 0.5,
+                "halfDepth": 0.5,
+                "radius": 1,
+                "height": 1
+              },
+              "id": "2"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": "34",
+          "visible": true,
+          "layer": 0
+        }
+      ],
+      "components": [
+        {
+          "type": "ModelRenderer",
+          "config": {
+            "modelAssetId": "89",
+            "animationId": null,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
+          },
+          "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "LeverBehavior",
+            "propertyValues": {
+              "index": {
+                "type": "number",
+                "value": 1
+              },
+              "direction": {
+                "type": "string",
+                "value": "x"
+              },
+              "target": {
+                "type": "number",
+                "value": -6
+              }
+            }
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": -10,
+        "y": 0,
+        "z": -7
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "id": "33",
+      "visible": true,
+      "layer": 0
+    },
+    {
+      "name": "Lever 2",
+      "children": [
+        {
+          "name": "Lever",
+          "children": [],
+          "components": [
+            {
+              "type": "ModelRenderer",
+              "config": {
+                "modelAssetId": "90",
+                "animationId": null,
+                "overrideOpacity": false,
+                "color": "ffffff",
+                "castShadow": false,
+                "receiveShadow": false,
+                "materialType": "basic"
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0.3826834323650898,
+            "w": 0.9238795325112867
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": "45",
+          "visible": true,
+          "layer": 0
+        },
+        {
+          "name": "Hitbox",
+          "children": [],
+          "components": [
+            {
+              "type": "CannonBody",
+              "config": {
+                "mass": 0,
+                "fixedRotation": false,
+                "offsetX": 0,
+                "offsetY": 0.5,
+                "offsetZ": 0,
+                "shape": "box",
+                "halfWidth": 1,
+                "halfHeight": 0.5,
+                "halfDepth": 0.5,
+                "radius": 1,
+                "height": 1
+              },
+              "id": "2"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": "47",
+          "visible": true,
+          "layer": 0
+        }
+      ],
+      "components": [
+        {
+          "type": "ModelRenderer",
+          "config": {
+            "modelAssetId": "89",
+            "animationId": null,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
+          },
+          "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "LeverBehavior",
+            "propertyValues": {
+              "index": {
+                "type": "number",
+                "value": 2
+              },
+              "direction": {
+                "type": "string",
+                "value": "y"
+              },
+              "target": {
+                "type": "number",
+                "value": 21.6
+              }
+            }
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -7
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "id": "43",
+      "visible": true,
+      "layer": 0
+    },
+    {
+      "name": "Lever 3",
+      "children": [
+        {
+          "name": "Lever",
+          "children": [],
+          "components": [
+            {
+              "type": "ModelRenderer",
+              "config": {
+                "modelAssetId": "90",
+                "animationId": null,
+                "overrideOpacity": false,
+                "color": "ffffff",
+                "castShadow": false,
+                "receiveShadow": false,
+                "materialType": "basic"
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0.3826834323650898,
+            "w": 0.9238795325112867
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": "46",
+          "visible": true,
+          "layer": 0
+        },
+        {
+          "name": "Hitbox",
+          "children": [],
+          "components": [
+            {
+              "type": "CannonBody",
+              "config": {
+                "mass": 0,
+                "fixedRotation": false,
+                "offsetX": 0,
+                "offsetY": 0.5,
+                "offsetZ": 0,
+                "shape": "box",
+                "halfWidth": 1,
+                "halfHeight": 0.5,
+                "halfDepth": 0.5,
+                "radius": 1,
+                "height": 1
+              },
+              "id": "2"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": "48",
+          "visible": true,
+          "layer": 0
+        }
+      ],
+      "components": [
+        {
+          "type": "ModelRenderer",
+          "config": {
+            "modelAssetId": "89",
+            "animationId": null,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
+          },
+          "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "LeverBehavior",
+            "propertyValues": {
+              "index": {
+                "type": "number",
+                "value": 3
+              },
+              "direction": {
+                "type": "string",
+                "value": "x"
+              },
+              "target": {
+                "type": "number",
+                "value": 5
+              }
+            }
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": 10,
+        "y": 0,
+        "z": -7
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "id": "44",
+      "visible": true,
+      "layer": 0
+    },
+    {
+      "name": "Puzzle Core",
+      "children": [],
+      "components": [
+        {
+          "type": "ModelRenderer",
+          "config": {
+            "modelAssetId": "102",
+            "animationId": null,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 17,
+        "z": -8
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 3,
+        "y": 3,
+        "z": 3
+      },
+      "id": "51",
+      "visible": true,
+      "layer": 0
+    },
+    {
+      "name": "Puzzle 1",
+      "children": [],
+      "components": [
+        {
+          "type": "ModelRenderer",
+          "config": {
+            "modelAssetId": "103",
+            "animationId": null,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": -10,
+        "y": 17.2,
+        "z": -8
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 3,
+        "y": 3,
+        "z": 3
+      },
+      "id": "35",
+      "visible": true,
+      "layer": 0
+    },
+    {
+      "name": "Puzzle 2",
+      "children": [],
+      "components": [
+        {
+          "type": "ModelRenderer",
+          "config": {
+            "modelAssetId": "105",
+            "animationId": null,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": -0.1,
+        "y": 25,
+        "z": -8
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 3,
+        "y": 3,
+        "z": 3
+      },
+      "id": "37",
+      "visible": true,
+      "layer": 0
+    },
+    {
+      "name": "Puzzle 3",
+      "children": [],
+      "components": [
+        {
+          "type": "ModelRenderer",
+          "config": {
+            "modelAssetId": "104",
+            "animationId": null,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": 9,
+        "y": 17.2,
+        "z": -8
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 3,
+        "y": 3,
+        "z": 3
+      },
+      "id": "36",
+      "visible": true,
+      "layer": 0
+    },
+    {
+      "name": "Text",
+      "children": [],
+      "components": [
+        {
+          "type": "SpriteRenderer",
+          "config": {
+            "spriteAssetId": "64",
+            "animationId": null,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 7,
+        "z": -9
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "id": "49",
+      "visible": true,
+      "layer": 0
+    }
+  ],
+  "formatVersion": 1
+}

@@ -1,0 +1,207 @@
+{
+  "behaviors": {
+    "PlayerBehavior": {
+      "scriptId": "3",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "teleportSpeedFactor",
+          "type": "number"
+        },
+        {
+          "name": "canMove",
+          "type": "boolean"
+        },
+        {
+          "name": "canJump",
+          "type": "boolean"
+        },
+        {
+          "name": "radius",
+          "type": "number"
+        },
+        {
+          "name": "height",
+          "type": "number"
+        },
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "angles",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "direction",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "modelPosition",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "initialShadowScale",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "shadowScale",
+          "type": "Sup.Math.Vector3"
+        }
+      ]
+    },
+    "TeleporterBehavior": {
+      "scriptId": "15",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "Player2Behavior": {
+      "scriptId": "36",
+      "parentBehavior": "PlayerBehavior",
+      "properties": []
+    },
+    "LeverBehavior": {
+      "scriptId": "73",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "index",
+          "type": "number"
+        },
+        {
+          "name": "direction",
+          "type": "string"
+        },
+        {
+          "name": "target",
+          "type": "number"
+        },
+        {
+          "name": "puzzleStart",
+          "type": "number"
+        },
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "activated",
+          "type": "boolean"
+        },
+        {
+          "name": "done",
+          "type": "boolean"
+        }
+      ]
+    },
+    "FloatUpBehavior": {
+      "scriptId": "77",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "delay",
+          "type": "number"
+        }
+      ]
+    },
+    "Player2DBehavior": {
+      "scriptId": "46",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "initialPosition",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "attackCooldown",
+          "type": "number"
+        },
+        {
+          "name": "attackCooldownDelay",
+          "type": "number"
+        },
+        {
+          "name": "canAttack",
+          "type": "boolean"
+        },
+        {
+          "name": "hitTimer",
+          "type": "number"
+        },
+        {
+          "name": "hitDelay",
+          "type": "number"
+        }
+      ]
+    },
+    "StepButtonBehavior": {
+      "scriptId": "39",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "index",
+          "type": "number"
+        },
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector3"
+        }
+      ]
+    },
+    "RadioBehavior": {
+      "scriptId": "79",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "spawnTimer",
+          "type": "number"
+        },
+        {
+          "name": "spawnDelay",
+          "type": "number"
+        },
+        {
+          "name": "musicPlayed",
+          "type": "boolean"
+        }
+      ]
+    },
+    "XboxBehavior": {
+      "scriptId": "113",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "RobotBehavior": {
+      "scriptId": "88",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "spawnTimer",
+          "type": "number"
+        },
+        {
+          "name": "spawnDelay",
+          "type": "number"
+        }
+      ]
+    },
+    "PlaneBehavior": {
+      "scriptId": "109",
+      "parentBehavior": null,
+      "properties": []
+    }
+  }
+}

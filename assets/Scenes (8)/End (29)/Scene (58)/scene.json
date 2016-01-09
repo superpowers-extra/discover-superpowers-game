@@ -1,0 +1,205 @@
+{
+  "nodes": [
+    {
+      "id": "35",
+      "name": "Base",
+      "children": [],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": {
+        "sceneAssetId": "117"
+      }
+    },
+    {
+      "name": "Asset",
+      "children": [],
+      "components": [
+        {
+          "type": "SpriteRenderer",
+          "config": {
+            "spriteAssetId": "14",
+            "animationId": null,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
+          },
+          "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "TeleporterBehavior",
+            "propertyValues": {}
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": -20,
+        "y": 0.1,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": -0.4999999999999999,
+        "w": 0.5000000000000001
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "id": "31",
+      "visible": true,
+      "layer": 0
+    },
+    {
+      "name": "Text",
+      "children": [],
+      "components": [
+        {
+          "type": "SpriteRenderer",
+          "config": {
+            "spriteAssetId": "66",
+            "animationId": null,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 13,
+        "z": -9
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "id": "33",
+      "visible": true,
+      "layer": 0
+    },
+    {
+      "id": "37",
+      "name": "Wall",
+      "children": [
+        {
+          "id": "36",
+          "name": "Model",
+          "children": [],
+          "components": [
+            {
+              "type": "ModelRenderer",
+              "config": {
+                "modelAssetId": "40",
+                "animationId": null,
+                "castShadow": false,
+                "receiveShadow": false,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null,
+                "materialType": "basic",
+                "shaderAssetId": null
+              },
+              "id": "1"
+            }
+          ],
+          "position": {
+            "x": -0.010000228881835938,
+            "y": -10,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 10,
+            "y": 10,
+            "z": 10
+          },
+          "visible": true,
+          "layer": 0,
+          "prefabId": null
+        }
+      ],
+      "components": [
+        {
+          "type": "CannonBody",
+          "config": {
+            "mass": 0,
+            "fixedRotation": false,
+            "offsetX": 0,
+            "offsetY": 3.5,
+            "offsetZ": 0,
+            "shape": "box",
+            "halfWidth": 3,
+            "halfHeight": 3.5,
+            "halfDepth": 3,
+            "radius": 1,
+            "height": 1
+          },
+          "id": "3"
+        }
+      ],
+      "position": {
+        "x": 23,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefabId": null
+    }
+  ],
+  "formatVersion": 1
+}
