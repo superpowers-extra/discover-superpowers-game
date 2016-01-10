@@ -1,4 +1,4 @@
-# Superpowers demo project
+# Discover Superpowers demo
 
 Play [the demo in your browser](http://sparklinlabs.itch.io/discover-superpowers)
 
