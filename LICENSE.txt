@@ -1,0 +1,7 @@
+This game was created in real-time collaboration using Superpowers — http://superpowers-html5.com
+
+The source project is made available publicly for educational purposes.
+Feel free to tinker with it and learn but don't reuse any of the art assets.
+
+If you're looking for great free assets, check out the Superpowers Asset Packs
+at https://github.com/sparklinlabs/superpowers-asset-packs
