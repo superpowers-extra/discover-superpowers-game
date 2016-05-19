@@ -26,7 +26,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "basic",
-                    "shaderAssetId": null
+                    "shaderAssetId": null,
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -67,7 +68,8 @@
                 },
                 "depth": 0,
                 "nearClippingPlane": 1,
-                "farClippingPlane": 90
+                "farClippingPlane": 90,
+                "formatVersion": 1
               },
               "id": "0"
             }
@@ -101,15 +103,28 @@
               "config": {
                 "mass": 0,
                 "fixedRotation": false,
-                "offsetX": 0,
-                "offsetY": 0,
-                "offsetZ": 0.5,
                 "shape": "box",
-                "halfWidth": 26,
-                "halfHeight": 10,
-                "halfDepth": 0.5,
                 "radius": 1,
-                "height": 1
+                "height": 1,
+                "formatVersion": 2,
+                "positionOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0.5
+                },
+                "halfSize": {
+                  "x": 26,
+                  "y": 10,
+                  "z": 0.5
+                },
+                "orientationOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "segments": 16,
+                "group": 1,
+                "mask": 1
               },
               "id": "2"
             },
@@ -126,7 +141,8 @@
                 "overrideOpacity": false,
                 "opacity": null,
                 "materialType": "basic",
-                "shaderAssetId": null
+                "shaderAssetId": null,
+                "formatVersion": 1
               },
               "id": "3"
             }
@@ -169,7 +185,8 @@
                 "overrideOpacity": false,
                 "opacity": null,
                 "materialType": "basic",
-                "shaderAssetId": null
+                "shaderAssetId": null,
+                "formatVersion": 1
               },
               "id": "0"
             }
@@ -206,15 +223,28 @@
                   "config": {
                     "mass": 0,
                     "fixedRotation": false,
-                    "offsetX": 0,
-                    "offsetY": 10,
-                    "offsetZ": 0,
                     "shape": "box",
-                    "halfWidth": 26,
-                    "halfHeight": 10,
-                    "halfDepth": 0.1,
                     "radius": 1,
-                    "height": 1
+                    "height": 1,
+                    "formatVersion": 2,
+                    "positionOffset": {
+                      "x": 0,
+                      "y": 10,
+                      "z": 0
+                    },
+                    "halfSize": {
+                      "x": 26,
+                      "y": 10,
+                      "z": 0.1
+                    },
+                    "orientationOffset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "segments": 16,
+                    "group": 1,
+                    "mask": 1
                   },
                   "id": "4"
                 }
@@ -260,7 +290,8 @@
                         "overrideOpacity": false,
                         "opacity": null,
                         "materialType": "basic",
-                        "shaderAssetId": null
+                        "shaderAssetId": null,
+                        "formatVersion": 1
                       },
                       "id": "0"
                     }
@@ -292,15 +323,28 @@
                   "config": {
                     "mass": 0,
                     "fixedRotation": false,
-                    "offsetX": 0,
-                    "offsetY": 10,
-                    "offsetZ": 0,
                     "shape": "box",
-                    "halfWidth": 26,
-                    "halfHeight": 10,
-                    "halfDepth": 0.1,
                     "radius": 1,
-                    "height": 1
+                    "height": 1,
+                    "formatVersion": 2,
+                    "positionOffset": {
+                      "x": 0,
+                      "y": 10,
+                      "z": 0
+                    },
+                    "halfSize": {
+                      "x": 26,
+                      "y": 10,
+                      "z": 0.1
+                    },
+                    "orientationOffset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "segments": 16,
+                    "group": 1,
+                    "mask": 1
                   },
                   "id": "2"
                 }
@@ -334,15 +378,28 @@
                   "config": {
                     "mass": 0,
                     "fixedRotation": false,
-                    "offsetX": 0,
-                    "offsetY": 10,
-                    "offsetZ": 0,
                     "shape": "box",
-                    "halfWidth": 0.5,
-                    "halfHeight": 10,
-                    "halfDepth": 10,
                     "radius": 1,
-                    "height": 1
+                    "height": 1,
+                    "formatVersion": 2,
+                    "positionOffset": {
+                      "x": 0,
+                      "y": 10,
+                      "z": 0
+                    },
+                    "halfSize": {
+                      "x": 0.5,
+                      "y": 10,
+                      "z": 10
+                    },
+                    "orientationOffset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "segments": 16,
+                    "group": 1,
+                    "mask": 1
                   },
                   "id": "2"
                 }
@@ -376,15 +433,28 @@
                   "config": {
                     "mass": 0,
                     "fixedRotation": false,
-                    "offsetX": 0,
-                    "offsetY": 10,
-                    "offsetZ": 0,
                     "shape": "box",
-                    "halfWidth": 0.5,
-                    "halfHeight": 10,
-                    "halfDepth": 10,
                     "radius": 1,
-                    "height": 1
+                    "height": 1,
+                    "formatVersion": 2,
+                    "positionOffset": {
+                      "x": 0,
+                      "y": 10,
+                      "z": 0
+                    },
+                    "halfSize": {
+                      "x": 0.5,
+                      "y": 10,
+                      "z": 10
+                    },
+                    "orientationOffset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "segments": 16,
+                    "group": 1,
+                    "mask": 1
                   },
                   "id": "2"
                 }
@@ -453,7 +523,8 @@
                         "overrideOpacity": false,
                         "opacity": null,
                         "materialType": "basic",
-                        "shaderAssetId": null
+                        "shaderAssetId": null,
+                        "formatVersion": 1
                       },
                       "id": "0"
                     }
@@ -485,15 +556,28 @@
                   "config": {
                     "mass": 0,
                     "fixedRotation": false,
-                    "offsetX": 0,
-                    "offsetY": 10,
-                    "offsetZ": 6.5,
                     "shape": "box",
-                    "halfWidth": 3,
-                    "halfHeight": 10,
-                    "halfDepth": 3.5,
                     "radius": 1,
-                    "height": 1
+                    "height": 1,
+                    "formatVersion": 2,
+                    "positionOffset": {
+                      "x": 0,
+                      "y": 10,
+                      "z": 6.5
+                    },
+                    "halfSize": {
+                      "x": 3,
+                      "y": 10,
+                      "z": 3.5
+                    },
+                    "orientationOffset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "segments": 16,
+                    "group": 1,
+                    "mask": 1
                   },
                   "id": "2"
                 },
@@ -502,15 +586,28 @@
                   "config": {
                     "mass": 0,
                     "fixedRotation": false,
-                    "offsetX": 0,
-                    "offsetY": 10,
-                    "offsetZ": -6.5,
                     "shape": "box",
-                    "halfWidth": 3,
-                    "halfHeight": 10,
-                    "halfDepth": 3.5,
                     "radius": 1,
-                    "height": 1
+                    "height": 1,
+                    "formatVersion": 2,
+                    "positionOffset": {
+                      "x": 0,
+                      "y": 10,
+                      "z": -6.5
+                    },
+                    "halfSize": {
+                      "x": 3,
+                      "y": 10,
+                      "z": 3.5
+                    },
+                    "orientationOffset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "segments": 16,
+                    "group": 1,
+                    "mask": 1
                   },
                   "id": "3"
                 },
@@ -519,15 +616,28 @@
                   "config": {
                     "mass": 0,
                     "fixedRotation": false,
-                    "offsetX": 0,
-                    "offsetY": 13.5,
-                    "offsetZ": 0,
                     "shape": "box",
-                    "halfWidth": 3,
-                    "halfHeight": 6.5,
-                    "halfDepth": 3,
                     "radius": 1,
-                    "height": 1
+                    "height": 1,
+                    "formatVersion": 2,
+                    "positionOffset": {
+                      "x": 0,
+                      "y": 13.5,
+                      "z": 0
+                    },
+                    "halfSize": {
+                      "x": 3,
+                      "y": 6.5,
+                      "z": 3
+                    },
+                    "orientationOffset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "segments": 16,
+                    "group": 1,
+                    "mask": 1
                   },
                   "id": "4"
                 }
@@ -571,7 +681,8 @@
                         "overrideOpacity": false,
                         "opacity": null,
                         "materialType": "basic",
-                        "shaderAssetId": null
+                        "shaderAssetId": null,
+                        "formatVersion": 1
                       },
                       "id": "0"
                     }
@@ -603,15 +714,28 @@
                   "config": {
                     "mass": 0,
                     "fixedRotation": false,
-                    "offsetX": 0,
-                    "offsetY": 10,
-                    "offsetZ": 6.5,
                     "shape": "box",
-                    "halfWidth": 3,
-                    "halfHeight": 10,
-                    "halfDepth": 3.5,
                     "radius": 1,
-                    "height": 1
+                    "height": 1,
+                    "formatVersion": 2,
+                    "positionOffset": {
+                      "x": 0,
+                      "y": 10,
+                      "z": 6.5
+                    },
+                    "halfSize": {
+                      "x": 3,
+                      "y": 10,
+                      "z": 3.5
+                    },
+                    "orientationOffset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "segments": 16,
+                    "group": 1,
+                    "mask": 1
                   },
                   "id": "2"
                 },
@@ -620,15 +744,28 @@
                   "config": {
                     "mass": 0,
                     "fixedRotation": false,
-                    "offsetX": 0,
-                    "offsetY": 10,
-                    "offsetZ": -6.5,
                     "shape": "box",
-                    "halfWidth": 3,
-                    "halfHeight": 10,
-                    "halfDepth": 3.5,
                     "radius": 1,
-                    "height": 1
+                    "height": 1,
+                    "formatVersion": 2,
+                    "positionOffset": {
+                      "x": 0,
+                      "y": 10,
+                      "z": -6.5
+                    },
+                    "halfSize": {
+                      "x": 3,
+                      "y": 10,
+                      "z": 3.5
+                    },
+                    "orientationOffset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "segments": 16,
+                    "group": 1,
+                    "mask": 1
                   },
                   "id": "3"
                 },
@@ -637,15 +774,28 @@
                   "config": {
                     "mass": 0,
                     "fixedRotation": false,
-                    "offsetX": 0,
-                    "offsetY": 13.5,
-                    "offsetZ": 0,
                     "shape": "box",
-                    "halfWidth": 3,
-                    "halfHeight": 6.5,
-                    "halfDepth": 3,
                     "radius": 1,
-                    "height": 1
+                    "height": 1,
+                    "formatVersion": 2,
+                    "positionOffset": {
+                      "x": 0,
+                      "y": 13.5,
+                      "z": 0
+                    },
+                    "halfSize": {
+                      "x": 3,
+                      "y": 6.5,
+                      "z": 3
+                    },
+                    "orientationOffset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "segments": 16,
+                    "group": 1,
+                    "mask": 1
                   },
                   "id": "4"
                 }
@@ -712,7 +862,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "basic",
-                    "shaderAssetId": null
+                    "shaderAssetId": null,
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -755,7 +906,8 @@
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "basic",
-                    "shaderAssetId": null
+                    "shaderAssetId": null,
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -787,15 +939,28 @@
               "config": {
                 "mass": 10,
                 "fixedRotation": true,
-                "offsetX": 0,
-                "offsetY": 0,
-                "offsetZ": 0,
                 "shape": "cylinder",
-                "halfWidth": 0.5,
-                "halfHeight": 0.5,
-                "halfDepth": 0.5,
                 "radius": 2,
-                "height": 5
+                "height": 5,
+                "formatVersion": 2,
+                "positionOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "halfSize": {
+                  "x": 0.5,
+                  "y": 0.5,
+                  "z": 0.5
+                },
+                "orientationOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "segments": 16,
+                "group": 1,
+                "mask": 1
               },
               "id": "0"
             },

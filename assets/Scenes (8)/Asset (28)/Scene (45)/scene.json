@@ -42,7 +42,8 @@
             "verticalFlip": false,
             "castShadow": false,
             "receiveShadow": false,
-            "materialType": "basic"
+            "materialType": "basic",
+            "formatVersion": 1
           },
           "id": "0"
         },
@@ -90,7 +91,8 @@
             "verticalFlip": false,
             "castShadow": false,
             "receiveShadow": false,
-            "materialType": "basic"
+            "materialType": "basic",
+            "formatVersion": 1
           },
           "id": "0"
         },
@@ -142,7 +144,8 @@
                     "color": "ffffff",
                     "castShadow": false,
                     "receiveShadow": false,
-                    "materialType": "basic"
+                    "materialType": "basic",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -174,15 +177,28 @@
               "config": {
                 "mass": 5,
                 "fixedRotation": false,
-                "offsetX": 0,
-                "offsetY": 0,
-                "offsetZ": 0,
                 "shape": "box",
-                "halfWidth": 3,
-                "halfHeight": 1.5,
-                "halfDepth": 1,
                 "radius": 1,
-                "height": 1
+                "height": 1,
+                "formatVersion": 2,
+                "positionOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "halfSize": {
+                  "x": 3,
+                  "y": 1.5,
+                  "z": 1
+                },
+                "orientationOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "segments": 16,
+                "group": 1,
+                "mask": 1
               },
               "id": "0"
             }
@@ -223,7 +239,8 @@
                     "color": "ffffff",
                     "castShadow": false,
                     "receiveShadow": false,
-                    "materialType": "basic"
+                    "materialType": "basic",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -255,15 +272,28 @@
               "config": {
                 "mass": 5,
                 "fixedRotation": false,
-                "offsetX": 0,
-                "offsetY": 0,
-                "offsetZ": 0,
                 "shape": "box",
-                "halfWidth": 1,
-                "halfHeight": 2,
-                "halfDepth": 2,
                 "radius": 1,
-                "height": 1
+                "height": 1,
+                "formatVersion": 2,
+                "positionOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "halfSize": {
+                  "x": 1,
+                  "y": 2,
+                  "z": 2
+                },
+                "orientationOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "segments": 16,
+                "group": 1,
+                "mask": 1
               },
               "id": "0"
             }
@@ -304,7 +334,8 @@
                     "color": "ffffff",
                     "castShadow": false,
                     "receiveShadow": false,
-                    "materialType": "basic"
+                    "materialType": "basic",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -336,15 +367,28 @@
               "config": {
                 "mass": 5,
                 "fixedRotation": false,
-                "offsetX": 0,
-                "offsetY": 0,
-                "offsetZ": 0,
                 "shape": "box",
-                "halfWidth": 1,
-                "halfHeight": 2,
-                "halfDepth": 2.5,
                 "radius": 1,
-                "height": 1
+                "height": 1,
+                "formatVersion": 2,
+                "positionOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "halfSize": {
+                  "x": 1,
+                  "y": 2,
+                  "z": 2.5
+                },
+                "orientationOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "segments": 16,
+                "group": 1,
+                "mask": 1
               },
               "id": "0"
             }
@@ -385,7 +429,8 @@
                     "color": "ffffff",
                     "castShadow": false,
                     "receiveShadow": false,
-                    "materialType": "basic"
+                    "materialType": "basic",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -417,15 +462,28 @@
               "config": {
                 "mass": 5,
                 "fixedRotation": false,
-                "offsetX": 0,
-                "offsetY": 0,
-                "offsetZ": 0,
                 "shape": "box",
-                "halfWidth": 1,
-                "halfHeight": 0.5,
-                "halfDepth": 2,
                 "radius": 1,
-                "height": 1
+                "height": 1,
+                "formatVersion": 2,
+                "positionOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "halfSize": {
+                  "x": 1,
+                  "y": 0.5,
+                  "z": 2
+                },
+                "orientationOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "segments": 16,
+                "group": 1,
+                "mask": 1
               },
               "id": "0"
             }
@@ -466,7 +524,8 @@
                     "color": "ffffff",
                     "castShadow": false,
                     "receiveShadow": false,
-                    "materialType": "basic"
+                    "materialType": "basic",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -498,15 +557,28 @@
               "config": {
                 "mass": 5,
                 "fixedRotation": false,
-                "offsetX": 0,
-                "offsetY": 0,
-                "offsetZ": 0,
                 "shape": "box",
-                "halfWidth": 0.5,
-                "halfHeight": 2,
-                "halfDepth": 0.5,
                 "radius": 1,
-                "height": 1
+                "height": 1,
+                "formatVersion": 2,
+                "positionOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "halfSize": {
+                  "x": 0.5,
+                  "y": 2,
+                  "z": 0.5
+                },
+                "orientationOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "segments": 16,
+                "group": 1,
+                "mask": 1
               },
               "id": "0"
             }
@@ -547,7 +619,8 @@
                     "color": "ffffff",
                     "castShadow": false,
                     "receiveShadow": false,
-                    "materialType": "basic"
+                    "materialType": "basic",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -579,15 +652,28 @@
               "config": {
                 "mass": 5,
                 "fixedRotation": false,
-                "offsetX": 0,
-                "offsetY": 0,
-                "offsetZ": 0,
                 "shape": "box",
-                "halfWidth": 0.5,
-                "halfHeight": 1.5,
-                "halfDepth": 0.5,
                 "radius": 1,
-                "height": 1
+                "height": 1,
+                "formatVersion": 2,
+                "positionOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "halfSize": {
+                  "x": 0.5,
+                  "y": 1.5,
+                  "z": 0.5
+                },
+                "orientationOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "segments": 16,
+                "group": 1,
+                "mask": 1
               },
               "id": "0"
             }
@@ -628,7 +714,8 @@
                     "color": "ffffff",
                     "castShadow": false,
                     "receiveShadow": false,
-                    "materialType": "basic"
+                    "materialType": "basic",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -660,15 +747,28 @@
               "config": {
                 "mass": 5,
                 "fixedRotation": false,
-                "offsetX": 0,
-                "offsetY": 0,
-                "offsetZ": 0,
                 "shape": "box",
-                "halfWidth": 0.5,
-                "halfHeight": 1.5,
-                "halfDepth": 0.5,
                 "radius": 1,
-                "height": 1
+                "height": 1,
+                "formatVersion": 2,
+                "positionOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "halfSize": {
+                  "x": 0.5,
+                  "y": 1.5,
+                  "z": 0.5
+                },
+                "orientationOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "segments": 16,
+                "group": 1,
+                "mask": 1
               },
               "id": "0"
             }
@@ -730,7 +830,8 @@
             "verticalFlip": false,
             "castShadow": false,
             "receiveShadow": false,
-            "materialType": "basic"
+            "materialType": "basic",
+            "formatVersion": 1
           },
           "id": "0"
         }
